@@ -2,7 +2,7 @@
 export const handlePayment = ( email, amount ) => {
 
     const handler = PaystackPop.setup({
-      key: "", // Replace with your public key
+      key: process.env.NEXT_PUBLIC_PAYSTACKPOP_SECRET_KEY , // Replace with your public key
       email,
       amount: amount * 100, // the amount value is multiplied by 100 to convert to the lowest currency unit
       currency: 'NGN', // Use GHS for Ghana Cedis or USD for US Dollars
