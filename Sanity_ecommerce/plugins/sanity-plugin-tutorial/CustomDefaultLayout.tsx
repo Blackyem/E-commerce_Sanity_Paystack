@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line
 import {LayoutProps, useCurrentUser} from 'sanity'
 import {GetStartedTutorial} from './GetStartedTutorial'
 

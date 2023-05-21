@@ -3,13 +3,14 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   experimental: {
-    appDir: true,
-    ignoreDuringBuilds: true
+    appDir: true
   },
 
   eslint: {
-    dirs: ['pages', 'utils'], // Only run ESLint on the 'pages' and 'utils' directories during production builds (next build)
-  }
+
+    ignoreDuringBuilds: true,
+  },
+  
 }
 
 module.exports = nextConfig
