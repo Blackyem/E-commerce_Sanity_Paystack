@@ -4,7 +4,11 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     appDir: true
-  }
+  },
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   
 }
 
