@@ -1,3 +1,8 @@
 {
-  "extends": "@sanity/eslint-config-studio"
+  "extends": "@sanity/eslint-config-studio",
+  "settings": {
+    "next": {
+      "rootDir": "packages/my-app/"
+    }
+  }
 }
