@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["**/*.ts", "**/*.tsx", "plugins/sanity-plugin-tutorial/CustomDefaultLayout.js"],
+  "include": ["**/*.ts", "**/*.tsx", "plugins/sanity-plugin-tutorial/CustomDefaultLayout.js", "../sanity.cli.ts", "plugins/sanity-plugin-tutorial/sanity.config.ts"],
   "exclude": ["node_modules"]
 }
