@@ -12,9 +12,9 @@ const Success = () => {
 
   useEffect(() => {
     localStorage.clear();
-    // setCartItems([]);
-    // setTotalPrice(0);
-    // setTotalQuantities(0);
+    setCartItems([]);
+    setTotalPrice(0);
+    setTotalQuantities(0);
     runFireworks();
   }, []);
 
