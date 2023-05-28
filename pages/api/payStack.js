@@ -11,8 +11,7 @@ export const handlePayment = ( email, amount ) => {
         //this happens after the payment is completed successfully
         const reference = response.reference;
         alert('Payment complete! Reference: ' + reference);
-        window.location = "http://localhost:3000/success";
-  
+        window.location = process.env.NEXT_PUBLIC_PAYSTACKPOP_SUCCESS_REDIRECT
 
         // Make an AJAX call to your server with the reference to verify the transaction
       },
